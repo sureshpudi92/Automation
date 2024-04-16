@@ -26,8 +26,7 @@ public class LocatorsDemo {
 
         List<WebElement> Images=driver.findElements(By.tagName("img"));
         System.out.println(Images.size());
-
-
+        
         driver.quit();
     }
 }
