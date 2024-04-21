@@ -24,7 +24,7 @@ public class CssSelector {
         //driver.findElement(By.cssSelector("[placeholder='Search store']")).sendKeys("tshirts");
 
        // tag class attribute   tag.classname[attribute='value']
-        //driver.findElement(By.cssSelector("input.search-box-text[placeholder='Search store']")).sendKeys("tsirts");
+        driver.findElement(By.cssSelector("input.search-box-text[placeholder='Search store']")).sendKeys("tsirts");
         //driver.findElement(By.cssSelector(".search-box-text[placeholder='Search store']")).sendKeys("tsirts");
 
 
