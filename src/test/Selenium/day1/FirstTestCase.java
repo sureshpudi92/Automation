@@ -9,12 +9,12 @@ package day1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 
 public class FirstTestCase {
     public static void main(String[] args) {
 
         WebDriver driver=new ChromeDriver();
+        // when object created for chromeDriver class then the constructor will invoke automatically and launch browser
         driver.get("https://demo.opencart.com/");
         String act_title= driver.getTitle();
         if(act_title.equals("Your Store")) {
