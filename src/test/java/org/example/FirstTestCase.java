@@ -25,7 +25,7 @@ public class FirstTestCase {
     public void verifyTitle() {
         String act_title = driver.getTitle();
         System.out.println("Actual Title: " + act_title);
-        Assert.assertEquals(act_title, "Google", "Title does not match");
+        Assert.assertEquals(act_title, "Google", "Title does not matched");
     }
 
     @AfterTest
